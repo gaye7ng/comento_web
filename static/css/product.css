@@ -1,0 +1,52 @@
+header {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+header {
+    position: fixed;
+}
+header .menu_company a {
+    position: fixed;
+    top: 40px;
+    right: 665px;
+}
+header .menu_product a {
+    position: fixed;
+    top: 40px;
+    right: 400px;
+}
+header .menu_buying a {
+    position: fixed;
+    top: 40px;
+    right: 150px;
+}
+header .line img {
+    position: fixed;
+    top: 92px;
+    right: 400px;
+}
+
+body {
+    margin-left: 0px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/product_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer .footer {
+    margin-top: 33px;
+    top: 20px;
+}
