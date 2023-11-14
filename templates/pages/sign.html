@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/sign.css' %}">
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title> 로그인/회원가입 </title>
+</head>
+
+<header></header>
+<body>
+    <form class="signin" action="/mall" method="get">
+        <fieldset>
+            <legend> 로그인 </legend>
+            아이디<br>
+            <input type="text" name="id"><br><br>
+            비밀번호<br>
+            <input type="password" name="passwd"><br><br>
+            <div class="in"> <input type="submit" value="signin" align="center"> </div>
+        </fieldset>
+    </form>
+
+    <form class="signup" action="/mall" method="get">
+        <fieldset>
+            <legend> 회원가입 </legend>
+                이름&nbsp;&nbsp;
+                <input type="text" name="name"><br><br>
+                아이디&nbsp;&nbsp;
+                <input type="text" name="id"><br><br>
+                비밀번호&nbsp;&nbsp;
+                <input type="password" name="passwd"><br><br>
+                연락처&nbsp;&nbsp;
+                <select name="choice">
+                    <option value=""> 통신사 </option>
+                    <option value="SKT"> SKT </option>
+                    <option value="KT"> KT </option>
+                    <option value="LGU+"> LG U+ </option>
+                </select>
+                <input type="text" maxlength="3" size="3" name="phone1">&nbsp;
+                <input type="text" maxlength="4" size="4" name="phone2">&nbsp;
+                <input type="text" maxlength="4" size="4" name="phone3"><br><br>
+                주소<br>
+                <textarea name="add" cols="30" rows="2"></textarea><br><br>
+                <div class="up"> <input type="submit" value="signup" align="center"> </div>
+        </fieldset>
+    </form>
+</body>
+
+<footer></footer>
+</html>

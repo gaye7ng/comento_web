@@ -1,0 +1,15 @@
+body .signin {
+    margin: 0 auto;
+    width: 500px;
+}
+body .signin .in{
+    text-align: center;
+}
+
+body .signup {
+    margin: 0 auto;
+    width: 500px;
+}
+body .signup .up {
+    text-align: center;
+}
