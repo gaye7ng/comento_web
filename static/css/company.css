@@ -1,9 +1,7 @@
 header {
+    position: fixed;
     margin-top: 40px;
     margin-left: 50px;
-}
-header {
-    position: fixed;
 }
 header .menu_company a {
     position: fixed;
@@ -33,7 +31,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../img/company_bg.png);
+    background-image: url(../img/.png);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;

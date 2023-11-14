@@ -1,9 +1,7 @@
 header {
+    position: fixed;
     margin-top: 40px;
     margin-left: 50px;
-}
-header {
-    position: fixed;
 }
 header .menu_company a {
     position: fixed;
