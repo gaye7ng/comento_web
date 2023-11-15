@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from .models import MainContent
 
 # Create your views here.
 def main(request):
