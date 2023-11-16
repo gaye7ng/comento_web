@@ -18,5 +18,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.index)
+    path('mall/', views.index),
+    path('mall/sign/', views.sign),
 ]

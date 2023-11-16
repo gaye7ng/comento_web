@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/sign.css' %}">
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title> 로그인/회원가입 </title>
+</head>
+
+<header></header>
+<body>
+    <table align="center">
+        <tr>
+            <td>
+                <div class="signin">
+                    <form action = "/mall/" method="get">
+                        <fieldset>
+                            <legend align="center"> 로그인 </legend>
+                            아이디<br>
+                            <input type="text" name ="id"><br><br>
+                            비밀번호<br>
+                            <input type="password" name="passwd"><br><br>
+                            <div class="in_button" align="center"> <input type="submit" value="signin"> </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </td>
+
+            <td>
+                <div class="signup">
+                    <form action ="/mall/"  method="get">
+                        <fieldset>
+                            <legend align="center"> 회원가입 </legend>
+                            이름&nbsp;&nbsp;
+                            <input type="text" name="name"><br><br>
+                            아이디&nbsp;&nbsp;
+                            <input type="text" name="id"><br><br>
+                            비밀번호&nbsp;&nbsp;
+                            <input type="password" name="passwd"><br><br>
+                            연락처<br>
+                            <select name="choice">
+                                <option value=""> 통신사 </option>
+                                <option value="SKT"> SKT </option>
+                                <option value="KT"> KT </option>
+                                <option value="LGU+"> LG U+ </option>
+                            </select>
+                            <input type="text" maxlength="3" size="3" name="phone1">
+                            <input type="text" maxlength="4" size="4" name="phone2">
+                            <input type="text" maxlength="4" size="4" name="phone3"><br><br>
+                            주소<br>
+                            <textarea name="add" cols="30" rows="2"></textarea><br><br>
+                            <div class="up_button" align="center"> <input type="submit" value="signup"> </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+<footer></footer>
+</html>

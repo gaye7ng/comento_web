@@ -1,0 +1,101 @@
+header .main_logo {
+    position: fixed;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+header .menu_company {
+    position: fixed;
+    margin-top: 40px;
+    right: 650px;
+}
+header .menu_product {
+    position: fixed;
+    margin-top: 40px;
+    right: 400px;
+}
+header .menu_buying {
+    position: fixed;
+    margin-top: 40px;
+    right: 150px;
+}
+header .line_company {
+    position: fixed;
+    top: 80px;
+    right: 658px;
+}
+header .line_product {
+    position: fixed;
+    top: 80px;
+    right: 408px;
+}
+
+
+.main {
+    margin-left: 0px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/main_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main .intro {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+}
+
+.company {
+    margin-left: 0px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/company_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.company .cominfo_bg img {
+    position: absolution;
+    margin-top: 115px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.product {
+    position: relative;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../img/product_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.product .proinfo_bg img {
+    position: absolution;
+    margin-top: 115px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer .footer {
+    margin-top: 33px;
+    top: 20px;
+}

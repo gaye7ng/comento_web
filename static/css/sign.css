@@ -1,15 +1,5 @@
-body .signin {
-    margin: 0 auto;
-    width: 500px;
-}
-body .signin .in{
-    text-align: center;
-}
+body table {
+    margin-top: 100px;
+    border-spacing: 100px;
 
-body .signup {
-    margin: 0 auto;
-    width: 500px;
-}
-body .signup .up {
-    text-align: center;
 }

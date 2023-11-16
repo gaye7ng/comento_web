@@ -9,9 +9,3 @@ def company(request):
 
 def product(request):
     return render(request, 'pages/product.html')
-
-def mall(request):
-    return render(request, 'pages/mall.html')
-
-def sign(request):
-    return render(request, 'pages/sign.html')

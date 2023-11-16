@@ -21,6 +21,4 @@ urlpatterns = [
     path('', views.main),
     path('company/', views.company),
     path('product/', views.product),
-    path('mall/', views.mall),
-    path('mall/sign', views.sign),
 ]

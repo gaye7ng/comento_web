@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 {% load static %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/pages.css' %}">
 <html lang="ko">
 
 <head>
@@ -9,31 +9,25 @@
 </head>
 
 <header>
-    <a href="/">
-        <img class="main_logo" src="/static/img/AmBanSoo_logo.png">
-    </a>
+    <div class="main_logo">
+        <a href="/"><img src="/static/img/AmBanSoo_logo.png" width="90%"></a>
+    </div>
 
     <div class="menu_company">
-        <a href="/company/">
-            <img class="cominfo_logo" src="/static/img/company_info.png">
-        </a>
+        <a href="/company/"><img src="/static/img/company_info.png" width="90%"></a>
     </div>
 
     <div class="menu_product">
-        <a href="/product/">
-            <img class="proinfo_logo" src="/static/img/product_info.png">
-        </a>
+        <a href="/product/"><img src="/static/img/product_info.png" width="90%"></a>
     </div>
 
     <div class="menu_buying">
-        <a href="/mysite/">
-            <img class="buying_logo" src="/static/img/buy.png">
-        </a>
+        <a href="/mall/"><img src="/static/img/buy.png" width="90%"></a>
     </div>
 </header>
 
-<body>
-    <img class="intro" src="/static/img/main_intro.png">
+<body class="main">
+    <img class="intro" src="/static/img/main_intro.png" width="45%">
 </body>
 
 </html>
