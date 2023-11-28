@@ -7,5 +7,5 @@ def index(request):
     context={'content_list': content_list}
     return render(request, 'mysite/content_list.html', context)
 
-def sign(request):
-    return render(request, 'mysite/sign.html')
+def pricing(request):
+    return render(request, 'mysite/pricing.html')

@@ -19,5 +19,5 @@ from . import views
 
 urlpatterns = [
     path('mall/', views.index),
-    path('mall/sign/', views.sign),
+    path('mall/pricing/', views.pricing),
 ]
